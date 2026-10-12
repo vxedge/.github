@@ -18,6 +18,7 @@ manifest and image digests that produced it.
 | H3: virtual-ECU packaging affects latency | **Holds**: virtio transport dominant |
 | H4: co-located OTA leaves the ADAS slice SLA intact | **Holds** |
 
+Every number: [FACTS.md](https://github.com/vxedge/docs/blob/main/FACTS.md) ·
 Details: [RESULTS.md](https://github.com/vxedge/docs/blob/main/RESULTS.md) ·
 Roadmap: [ROADMAP.md](https://github.com/vxedge/docs/blob/main/ROADMAP.md)
 
