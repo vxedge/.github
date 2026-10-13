@@ -1,13 +1,29 @@
-## vxedge: an open SDV network-slicing testbed
+<p align="center">
+  <a href="https://vxedge.dev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vxedge/.github/main/profile/vxedge-lockup-light.png">
+      <img alt="vxedge" src="https://raw.githubusercontent.com/vxedge/.github/main/profile/vxedge-lockup-ink.png" width="280">
+    </picture>
+  </a>
+</p>
 
-vxedge maps **5G network slices onto zonal and central software-defined-vehicle (SDV) E/E
-architectures**, entirely in software, on one machine. Every published number ships with the
-manifest and image digests that produced it.
+<h3 align="center">Experiment with the vehicle before it exists.</h3>
 
-- **vxgateway** is a software-defined edge gateway (bridge/OVS VLANs, tc queue trees, WireGuard, VXLAN), with real S-NSSAI slicing through Open5GS and UERANSIM.
-- **Virtual ECUs** run on QEMU/KVM via libvirt or raw-QEMU microVMs, and **central compute** runs in containers.
-- **vxAPI** is an API-first Rust control plane (gRPC/Protobuf). The `vxedge` CLI and an MCP server are thin clients over it.
-- **Everything is driven by manifests**, from a single experiment up to a full software-bootstrapped vehicle.
+<p align="center">
+  <a href="https://vxedge.dev">Website</a> ·
+  <a href="https://vxedge.dev/how/">How it works</a> ·
+  <a href="https://vxedge.dev/results/">Evidence</a> ·
+  <a href="https://vxedge.dev/docs/">Docs</a> ·
+  <a href="https://vxedge.dev/collaborate/">Collaborate</a>
+</p>
+
+vxedge is an open, agent-operable testbed for software-defined vehicles. A vehicle is declared as
+code, run on one machine, and measured: **5G network slices onto zonal and central E/E
+architectures**, entirely in software. Every published number ships with the manifest and image
+digests that produced it.
+
+**Status:** pre-release (0.x). Phases 1–2 are complete and phase 3 is in progress. The manifest
+schema and vxAPI may change between minor versions; published results are frozen.
 
 ### Results so far
 
@@ -18,22 +34,25 @@ manifest and image digests that produced it.
 | H3: virtual-ECU packaging affects latency | **Holds**: virtio transport dominant |
 | H4: co-located OTA leaves the ADAS slice SLA intact | **Holds** |
 
-Every number: [FACTS.md](https://github.com/vxedge/docs/blob/main/FACTS.md) ·
-Details: [RESULTS.md](https://github.com/vxedge/docs/blob/main/RESULTS.md) ·
-Roadmap: [ROADMAP.md](https://github.com/vxedge/docs/blob/main/ROADMAP.md)
+Every number is registered in [FACTS.md](https://github.com/vxedge/docs/blob/main/FACTS.md);
+details and caveats are in [RESULTS.md](https://github.com/vxedge/docs/blob/main/RESULTS.md) and the
+[roadmap](https://github.com/vxedge/docs/blob/main/ROADMAP.md).
 
 ### Repositories
 
+The repositories are being opened in order, starting with the documentation. Each link below goes
+live as its repository is published.
+
 | | |
 |---|---|
-| [**vxedge**](https://github.com/vxedge/vxedge) | Control plane, vxAPI, CLI, vxgateway (**start here**) |
-| [vxperiments](https://github.com/vxedge/vxperiments) | Experiments, analysis, frozen results |
-| [vxagents](https://github.com/vxedge/vxagents) · [vxtelemetry](https://github.com/vxedge/vxtelemetry) | Measurement agents · telemetry and archiving |
-| [vxota](https://github.com/vxedge/vxota) | OTA server (the H4 workload) |
-| [vxparts](https://github.com/vxedge/vxparts) | OCI/ORAS registry of every loadable |
-| [vxmodels](https://github.com/vxedge/vxmodels) | SysML v2 models and the manifest renderer |
-| [vxmcp](https://github.com/vxedge/vxmcp) | MCP server over vxAPI |
-| [docs](https://github.com/vxedge/docs) | Architecture, getting started, user guide |
+| [**docs**](https://github.com/vxedge/docs) | Specification, results, user guide and the facts registry (**start here**) |
+| vxedge | Control plane, vxAPI, CLI and vxgateway |
+| vxperiments | Experiments, analysis and frozen results |
+| vxagents · vxtelemetry | Measurement agents · telemetry and archiving |
+| vxota | OTA server (the H4 workload) |
+| vxparts | OCI/ORAS registry of every loadable |
+| vxmodels | SysML v2 models and the manifest renderer |
+| vxmcp | MCP server over vxAPI |
 
-Site: **[vxedge.dev](https://vxedge.dev)** · Contact: hello@vxedge.dev ·
-Apache-2.0 (code), CC BY 4.0 (docs and results)
+Contact: [hello@vxedge.dev](mailto:hello@vxedge.dev) · Security: [security@vxedge.dev](mailto:security@vxedge.dev) ·
+Code is Apache-2.0; docs, results and figures are CC BY 4.0. © The vxedge Authors.
