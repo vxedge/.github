@@ -43,7 +43,7 @@ details and caveats are in [RESULTS.md](https://github.com/vxedge/docs/blob/main
 The repositories are being opened in order, starting with the documentation. Each link below goes
 live as its repository is published.
 
-| | |
+| Repo | What |
 |---|---|
 | [**docs**](https://github.com/vxedge/docs) | Specification, results, user guide and the facts registry (**start here**) |
 | vxedge | Control plane, vxAPI, CLI and vxgateway |
