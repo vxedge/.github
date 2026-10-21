@@ -47,7 +47,7 @@ live as its repository is published.
 |---|---|
 | [**docs**](https://github.com/vxedge/docs) | Specification, results, user guide and the facts registry (**start here**) |
 | [**vxedge**](https://github.com/vxedge/vxedge) | Control plane, vxAPI, CLI and vxgateway |
-| vxperiments | Experiments, analysis and frozen results |
+| [**vxperiments**](https://github.com/vxedge/vxperiments) | Experiments, analysis and frozen results |
 | vxagents · vxtelemetry | Measurement agents · telemetry and archiving |
 | vxota | OTA server (the H4 workload) |
 | vxparts | OCI/ORAS registry of every loadable |
