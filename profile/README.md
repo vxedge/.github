@@ -46,7 +46,7 @@ live as its repository is published.
 | Repo | What |
 |---|---|
 | [**docs**](https://github.com/vxedge/docs) | Specification, results, user guide and the facts registry (**start here**) |
-| vxedge | Control plane, vxAPI, CLI and vxgateway |
+| [**vxedge**](https://github.com/vxedge/vxedge) | Control plane, vxAPI, CLI and vxgateway |
 | vxperiments | Experiments, analysis and frozen results |
 | vxagents · vxtelemetry | Measurement agents · telemetry and archiving |
 | vxota | OTA server (the H4 workload) |
