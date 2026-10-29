@@ -50,7 +50,7 @@ live as its repository is published.
 | [**vxperiments**](https://github.com/vxedge/vxperiments) | Experiments, analysis and frozen results |
 | [**vxagents**](https://github.com/vxedge/vxagents) · [**vxtelemetry**](https://github.com/vxedge/vxtelemetry) | Measurement agents · telemetry and archiving |
 | [**vxota**](https://github.com/vxedge/vxota) | OTA server (the H4 workload) |
-| vxparts | OCI/ORAS registry of every loadable |
+| [**vxparts**](https://github.com/vxedge/vxparts) | OCI/ORAS registry of every loadable |
 | vxmodels | SysML v2 models and the manifest renderer |
 | vxmcp | MCP server over vxAPI |
 
