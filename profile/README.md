@@ -51,7 +51,7 @@ live as its repository is published.
 | [**vxagents**](https://github.com/vxedge/vxagents) · [**vxtelemetry**](https://github.com/vxedge/vxtelemetry) | Measurement agents · telemetry and archiving |
 | [**vxota**](https://github.com/vxedge/vxota) | OTA server (the H4 workload) |
 | [**vxparts**](https://github.com/vxedge/vxparts) | OCI/ORAS registry of every loadable |
-| vxmodels | SysML v2 models and the manifest renderer |
+| [**vxmodels**](https://github.com/vxedge/vxmodels) | SysML v2 models and the manifest renderer |
 | vxmcp | MCP server over vxAPI |
 
 Contact: [hello@vxedge.dev](mailto:hello@vxedge.dev) · Security: [security@vxedge.dev](mailto:security@vxedge.dev) ·
