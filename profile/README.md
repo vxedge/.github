@@ -40,8 +40,7 @@ details and caveats are in [RESULTS.md](https://github.com/vxedge/docs/blob/main
 
 ### Repositories
 
-The repositories are being opened in order, starting with the documentation. Each link below goes
-live as its repository is published.
+All repositories below are public.
 
 | Repo | What |
 |---|---|
@@ -52,7 +51,7 @@ live as its repository is published.
 | [**vxota**](https://github.com/vxedge/vxota) | OTA server (the H4 workload) |
 | [**vxparts**](https://github.com/vxedge/vxparts) | OCI/ORAS registry of every loadable |
 | [**vxmodels**](https://github.com/vxedge/vxmodels) | SysML v2 models and the manifest renderer |
-| vxmcp | MCP server over vxAPI |
+| [**vxmcp**](https://github.com/vxedge/vxmcp) | MCP server over vxAPI |
 
 Contact: [hello@vxedge.dev](mailto:hello@vxedge.dev) · Security: [security@vxedge.dev](mailto:security@vxedge.dev) ·
 Code is Apache-2.0; docs, results and figures are CC BY 4.0. © The vxedge Authors.
