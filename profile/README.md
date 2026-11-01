@@ -22,7 +22,7 @@ code, run on one machine, and measured: **5G network slices onto zonal and centr
 architectures**, entirely in software. Every published number ships with the manifest and image
 digests that produced it.
 
-**Status:** pre-release (0.x). Phases 1–2 are complete and phase 3 is in progress. The manifest
+**Status:** pre-release (0.x). The gates of phases 1–3 have passed, and phase 3 content is in progress. The manifest
 schema and vxAPI may change between minor versions; published results are frozen.
 
 ### Results so far
