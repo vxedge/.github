@@ -41,7 +41,7 @@ reporting (the repository's **Security → Report a vulnerability** tab) or emai
   assumes the operator running `vxedge experiment up` controls the manifest. A vulnerability
   that requires an already-malicious manifest to trigger is lower severity than one reachable
   from network input the gateway actually processes.
-- **Third-party components** (QNX, AAOS, CARLA, Autoware, DeepStream/TensorRT, SONiC-VS,
+- **Third-party components** (AAOS, CARLA, Autoware, DeepStream/TensorRT, SONiC-VS,
   Open5GS, UERANSIM) have their own upstream security
   processes; report vulnerabilities in those components to their maintainers, not here, unless
   the issue is specifically in how vxedge integrates or provisions them.
